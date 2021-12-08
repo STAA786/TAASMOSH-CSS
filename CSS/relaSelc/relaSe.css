@@ -1,0 +1,19 @@
+/* body{
+    margin: 10px;
+} */
+
+
+/* only one line selected by using > symbol 
+#product > p {                           
+         color:crimson;
+}
+
+/* using this + sighn we can give css out section element 
+#product + p {
+    color:crimson;
+}*/
+
+
+#product ~ p {
+    color:crimson;
+}
