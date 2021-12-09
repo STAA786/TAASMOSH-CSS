@@ -23,7 +23,25 @@ article p:last-of-type{
     font-style: italic;
     } */
     
-ul li :nth-child(odd)
+/* ul li:nth-child(odd)
+{
+  color:deeppink;
+}     */
+
+ul li:nth-child(even)
 {
   color:deeppink;
 }    
+
+/* a:visited{
+    color:violet;
+} */
+
+a:visited,
+a:link{
+    color:violet;
+}
+a:hover,
+a:focus{
+    color: turquoise;
+}
